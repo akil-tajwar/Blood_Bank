@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    <link rel="stylesheet" href="/Webpages/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="login-logo">
+        <a href="/Webpages/Home.html"><img width="220px" src="/Media/blood-bank 2.png"></a>
+    </div>
+    <div class="login-box">
+        <div class="login-page">
+            <div class="login-head">
+                <h2>Welcome to Blood Bank</h2>
+                <h4>Signup Page</h4>
+            </div>
+            <div class="instruction">
+                <span class="ins_fname">First Name *</span>
+                Last Name *
+            </div>
+            <div class="name">
+                <span class="first-name"><input class="box" type="text" size="25" placeholder="First Name"></span>
+                <input class="box" type="text" size="25" placeholder="Last Name">
+            </div>
+            <div class="instruction">
+                <span class="ins_fname">Username *</span>
+            </div>
+            <div class="username">
+                <input class="box" type="text" size="61" placeholder="Username">
+            </div>
+            <div class="note">
+                <p>Username can have only english letters, numbers or "/, -, _" symbols. It can't contain any "space".
+                    And be careful about this. You can only change your username once in the
+                    first 7 days after registration.
+                </p>
+            </div>
+            <div class="instruction">
+                <span class="ins_gender">Select Gender *</span>
+                Select Blood Group *
+            </div>
+            <div class="name">
+                <span class="gender"><select class="gnd_padding" placeholder="Gender">
+                        <option>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select></span>
+                <select class="blood" placeholder="Blood Group">
+                    <option>Blood Group</option>
+                    <option>A+(ve)</option>
+                    <option>B+(ve)</option>
+                    <option>AB+(ve)</option>
+                    <option>o+(ve)</option>
+                    <option>A-(ve)</option>
+                    <option>B-(ve)</option>
+                    <option>AB-(ve)</option>
+                    <option>o-(ve)</option>
+                </select>
+            </div>
+            <div class="instruction">
+                <span class="ins_weight">Weight *</span>
+                Height *
+            </div>
+            <div class="name">
+                <span class="first-name"><input class="box" type="text" size="25" placeholder="Weight in KG"></span>
+                <input class="box" type="text" size="25" placeholder="Height">
+            </div>
+            <div class="instruction">
+                <span class="ins_d-birth">Date of Birth *</span>
+            </div>
+            <div class="email">
+                <input class="birth" type="date" size="61">
+            </div>
+            <div class="padd"></div>
+            <div class="instruction">
+                <span class="ins_fname">Phone Number *</span>
+            </div>
+            <div class="email">
+                <input class="box" type="text" size="61" placeholder="Phone Number">
+            </div>
+            <div class="instruction">
+                <span class=" ins_ct">Country *</span>
+                Division/State *
+            </div>
+            <div class="name">
+                <span class="first-name"><input class="box" type="text" size="25" placeholder="Country"></span>
+                <input class="box" type="text" size="25" placeholder="Division/State">
+            </div>
+            <div class="instruction">
+                <span class="ins_fname">District/City *</span>
+                Area/Thana *
+            </div>
+            <div class="name">
+                <span class="first-name"><input class="box" type="text" size="25" placeholder="District/City"></span>
+                <input class="box" type="text" size="25" placeholder="Area/Thana">
+            </div>
+            <div class="instruction">
+                <span class="ins_fname">Full Address (optional)</span>
+            </div>
+            <div class="email">
+                <input class="box" type="text" size="61" placeholder="Full Address">
+            </div>
+            <div class="instruction">
+                <span class="ins_fname">NID (Front) *</span>
+            </div>
+            <div class="email">
+                <input class="inside" type="file" size="61">
+            </div>
+            <div class="instruction">
+                <span class="ins_fname">NID (Back) *</span>
+            </div>
+            <div class="email">
+                <input class="inside" type="file" size="61">
+            </div>
+            <div class="padd"></div>
+            <div class="instruction">
+                <span class="ins_fname">Email*</span>
+            </div>
+            <div class="email">
+                <input class="box" type="text" size="61" placeholder="Email">
+            </div>
+            <div class="instruction">
+                <span class="ins_fname">Password</span>
+            </div>
+            <div class="password">
+                <input class="box" type="password" size="61" placeholder="Password">
+            </div>
+            <div class="instruction">
+                <span class="ins_fname">Confirm Password</span>
+            </div>
+            <div class="confirm-password">
+                <input class="box" type="password" size="61" placeholder="Confirm Password">
+            </div>
+            <div class="note">
+                <p>Your password must be 8 cahracters with a number and a letter</p>
+            </div>
+            <div class="padd"></div>
+            <div>
+                <input type="checkbox">
+                <span class="note">
+                    I have read the eligibility criteria and confirm that i am eligible to donate blood.
+                </span>
+            </div>
+            <div>
+                <input type="checkbox">
+                <span class="note">
+                    I agree to the Term and Conditions and consent to have my contact and donor <p>information published to the potential blood recipients.</p>
+                </span>
+            </div>
+            <div class="registar"><button type="button">Registar</button></div>
+        </div>
+    </div>
+    <div class="alternative-signup">
+        <p>Already have an account?</p>
+        <div class="signup-bottom">
+            <a href="/Webpages/Login.html" class="login-now">
+                <p>Login</p>
+            </a>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d9f4599ff1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

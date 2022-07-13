@@ -1,0 +1,470 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.hr
+{
+    width: 59.3%;
+    align-items: center;
+    margin: auto;
+    padding: 70px 0;
+}
+
+
+
+/* Home */
+.account
+{
+    text-align: right;
+    padding-right: 19%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(218, 218, 218);
+}
+.account a
+{
+    color: rgb(38, 38, 38);
+    font-weight: bolder;
+    padding-right: 25px;
+    text-decoration: none;
+}
+.account a:hover
+{
+    color: rgb(236, 47, 37);
+}
+.nav
+{
+    width: 61.8%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plain_nav
+{
+    background-color: rgb(12, 22, 39);
+    padding: 2%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: +1;
+    width: 100%;
+}
+.menu
+{
+    font-size: larger;
+}
+.menu a
+{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.nav_m
+{
+    margin-right: 40px;
+}
+.menu a:hover
+{
+    color: rgb(236, 47, 37);
+}
+.motivation
+{
+    text-align: center;
+    padding-bottom: 55px;
+}
+.emergency .row
+{
+    text-align: justify;
+    padding-left: 19.9%;
+}
+.emergency .row h4
+{
+    text-align: center;
+    background-color: rgb(236, 47, 37);
+    color: white;
+    font-weight: bolder;
+    padding: 5px 2px;
+}
+.emergency
+{
+    padding: 50px;
+    width: 94.4%;
+}
+.box a
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(236, 47, 37);
+    font-weight: bolder;
+    padding: 5px;
+    font-size: larger;
+}
+.em_det :hover
+{
+    color: white;
+}
+.em_det
+{
+    margin-left: 8px;
+    padding-bottom: 10px;
+}
+.box p
+{
+    padding: 0 8px 0 8px;
+}
+.inner
+{
+    border: 1px rgb(236, 47, 37) solid;
+}
+.inner i
+{
+    padding-right: 10px;
+}
+.about_us h1
+{
+    color: rgb(236, 47, 37);
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.about_us
+{
+    color: rgb(38, 38, 38);
+    text-align: center;
+    width: 59.3%;
+    margin: auto;
+}
+.about_us p
+{
+    padding-bottom: 80px;
+    text-align: justify;
+}
+.details
+{
+    text-align: center;
+    width: 59.3%;
+    margin: auto;
+}
+.details i
+{
+    padding-bottom: 10px;
+}
+.details h3
+{
+    color: rgb(236, 47, 37);
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.details p
+{
+    text-align: justify;
+}
+.gallery
+{
+    text-align: center;
+}
+.gal_all
+{
+    padding-left: 388px;
+    padding-bottom: 90px;
+}
+.gal_all img
+{
+    border: 2px rgb(236, 47, 37) solid;
+}
+.gallery h2
+{
+    font-weight: bolder;
+    color: rgb(236, 47, 37);
+    padding-bottom: 40px;
+}
+.footer
+{
+    background-color: rgb(12, 22, 39);
+    padding-top: 40px;
+}
+.footer .row
+{
+    padding-left: 388px;
+    width: 90.6%;
+}
+.footer h4
+{
+    padding-bottom: 40px;
+    color: rgb(236, 47, 37);
+}
+#footer_info
+{
+    color: white;
+}
+#footer_info p
+{
+    line-height: 9px;
+    font-size: 14px
+}
+.icon
+{
+    padding-right: 9.8px;
+}
+.hr2
+{
+    background-color: rgb(236, 47, 37);
+    width: 100%;
+}
+.copyright p
+{
+    line-height: 9px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.copyright
+{
+    padding: 10px;
+}
+
+
+/* Login */
+.login-logo
+{
+    text-align: center;
+    padding-top: 120px;
+}
+.login-page
+{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 36px 0;
+    border: 5px rgb(12, 22, 39) solid;
+    background-color: rgb(12, 22, 39);
+}
+.login-box
+{
+    padding: 70px 0 20px;
+}
+.login-head
+{
+    color: rgb(236, 47, 37);
+    padding-bottom: 30px;
+}
+.email, .password
+{
+    padding-bottom: 20px;
+}
+.box
+{
+    padding: 10px;
+}
+.login-page button
+{
+    background-color: rgb(236, 47, 37);
+    color: white;
+    padding: 5px 16px;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+.alternative
+{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(12, 22, 39)
+}
+.create-now
+{
+    text-decoration: none;
+    color: rgb(236, 47, 37);
+}
+.forgot
+{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+#forgot-pass
+{
+    text-decoration: none;
+    color: rgb(18, 126, 72);
+}
+
+
+
+/* Register */
+
+.padd
+{
+    padding-bottom: 50px;
+}
+.instruction
+{
+    color: rgb(236, 47, 37);
+    text-align: left;
+    padding-left: 9px;
+}
+.ins_fname, .ins_d-birth
+{
+    padding-right: 190px;
+}
+.ins_gender
+{
+    padding-right: 167px;
+}
+.ins_weight
+{
+    padding-right: 220px;
+}
+.ins_ct
+{
+    padding-right: 212px;
+}
+.name
+{
+    padding-bottom: 20px;
+}
+.first-name, .gender
+{
+    padding-right: 20px;
+}
+.username, .confirm-password
+{
+    padding-bottom: 5px;
+}
+.birth
+{
+    padding: 10px 395px 10px 9px;
+}
+.blood
+{
+    padding: 14px 136px 14px 9px;
+}
+.gnd_padding
+{
+    padding: 14px 172px 14px 9px;
+}
+.inside
+{
+    text-align: left;
+    background-color: white;
+    padding: 10px 235px 10px 10px;
+}
+.note
+{
+    color: rgb(146, 146, 146);
+    font-size: smaller;
+    width: 90%;
+    text-align: left;
+    margin-left: 27px;
+    padding-bottom: 10px;
+}
+span p
+{
+    padding-left: 73px;
+}
+.alternative-signup
+{
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(10, 21, 30);
+}
+.registar
+{
+    padding-top: 30px;
+}
+.login-now
+{
+    text-decoration: none;
+    color: rgb(236, 47, 37);
+}
+.signup-bottom
+{
+    padding-bottom: 60px;
+}
+
+
+
+/*BLOG*/
+.blog
+{
+    text-align: justify;
+    padding: 40px 0 40px 20.2%;
+}
+.blog img
+{
+    border: 1px rgb(236, 47, 37) solid;
+}
+.blog h2
+{
+    color: rgb(236, 47, 37);
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+.blog button
+{
+    padding: 5px 10px;
+    background-color: rgb(236, 47, 37);
+    color: white;
+}
+.view_more
+{
+    padding-top: 20px;
+}
+
+
+
+/* FAQ */
+.faq
+{
+    width: 79.5%;
+    padding: 40px 0 0 389px;
+}
+.faq p
+{
+    text-align: justify;
+    font-weight: bolder;
+}
+.faq h1
+{
+    color: rgb(236, 47, 37);
+    padding-bottom: 20px;
+}
+.hr3
+{
+    width: 59.3%;
+    margin: auto;
+    padding: 2px 0 0;
+    font-weight: bolder;
+}
+.questions h4
+{
+    padding: 0 5px;
+    color: rgb(236, 47, 37);
+    border-left: 3px rgb(236, 47, 37) solid;
+}
+.questions
+{
+    padding: 10px 0;
+}
+.ques_plate
+{
+    width: 79.5%;
+    padding: 0 0 0 389px;
+}
+.ques_plate p
+{
+    text-align: justify;
+    padding-bottom: 30px;
+}
+.further_ques
+{
+    color: rgb(236, 47, 37);
+    font-weight: bolder;
+    padding: 30px 0;
+}
